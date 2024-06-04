@@ -13,7 +13,7 @@ class Login extends React.Component {
     emailValido = (email) => {
         const emailRegex = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/;
         return emailRegex.test(email);
-    }
+    };
 
     // Função para lidar com mudanças nos inputs
     onInputChange = (event) => {
