@@ -29,7 +29,7 @@ class Login extends React.Component {
     };
 
     // Função para lidar com o clique do botão
-    btn = async () => {
+    btn = () => {
         this.setState({ navigate: true });
     };
 
