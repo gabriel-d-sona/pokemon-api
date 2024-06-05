@@ -1,16 +1,15 @@
 import React from "react";
+import PokemonSearch from "../componentes/PokemonSearch";
+import Header from '../componentes/Header';
 
 class Pokedex extends React.Component {
     render() {
         return (
-            <input
-                id="search-input"
-                data-testid="login-search-input"
-                type="text"
-                name="search"
-                // value={search}
-                onChange={this.onInputChange}
-            />
+            <div>
+                <Header />
+                <h1>Pokedex</h1>
+                <PokemonSearch />
+            </div>
         )
     }
 }

@@ -22,3 +22,5 @@ CardPokemon.propTypes = {
     name: PropTypes.string.isRequired,
     weight: PropTypes.number.isRequired,
 };
+
+export default CardPokemon;
